@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" aria-labelledby="title"
+aria-describedby="desc" role="img" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <title>Shopping Trolley</title>
+  <desc>A color styled icon from Orion Icon Library.</desc>
+  <path data-name="layer4"
+  fill="#f27e7c" d="M18 23.5l10-10 10 10"></path>
+  <path data-name="layer3" fill="#78d1f4" d="M36 21.5l7-17 7 3-6 16h-7l-1-2zm-14 26h32l8-24H16l6 24z"></path>
+  <path data-name="opacity" fill="#000064" opacity=".15" d="M28 43.5l-5-20h-7l6 24h32l1.3-4H28z"></path>
+  <circle data-name="layer2" cx="24" cy="55.5" r="4" fill="#a6b1c9"></circle>
+  <circle data-name="layer2" cx="50" cy="55.5" r="4" fill="#a6b1c9"></circle>
+  <path data-name="layer1" fill="#44d88d" d="M46 23.5v-10h12v10"></path>
+  <path data-name="stroke" fill="none" stroke="#2e4369" stroke-linecap="round"
+  stroke-linejoin="round" stroke-width="2" d="M18 23.5l10-10 10 10m8 0v-10h12v10"></path>
+  <path data-name="stroke" fill="none" stroke="#2e4369" stroke-linecap="round"
+  stroke-linejoin="round" stroke-width="2" d="M36 21.5l7-17 7 3-2.4 6m-1.6 4l-2.4 6"></path>
+  <path data-name="stroke" fill="none" stroke="#2e4369" stroke-linecap="round"
+  stroke-linejoin="round" stroke-width="2" d="M2 7.5h10l10 40h32l8-24H16"></path>
+  <circle data-name="stroke" cx="24" cy="55.5" r="4" fill="none"
+  stroke="#2e4369" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></circle>
+  <circle data-name="stroke" cx="50" cy="55.5" r="4" fill="none"
+  stroke="#2e4369" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></circle>
+</svg>
