@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" aria-labelledby="title"
+aria-describedby="desc" role="img" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <title>Exit</title>
+  <desc>A color styled icon from Orion Icon Library.</desc>
+  <path data-name="layer1"
+  fill="#bacae9" d="M50 16.25L45.75 12 31 26.75 16.25 12 12 16.25 26.75 31 12 45.75 16.25 50 31 35.25 45.75 50 50 45.75 35.25 31 50 16.25z"></path>
+  <path data-name="stroke" fill="none" stroke="#000" stroke-linecap="round"
+  stroke-linejoin="round" stroke-width="2" d="M50 16.25L45.75 12 31 26.75 16.25 12 12 16.25 26.75 31 12 45.75 16.25 50 31 35.25 45.75 50 50 45.75 35.25 31 50 16.25z"></path>
+</svg>
