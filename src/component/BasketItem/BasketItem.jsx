@@ -1,10 +1,13 @@
 import minus from './minus.svg';
 import plus from './plus.svg';
-import close from '../BasketList/delete.svg'
+import close from '../BasketList/delete.svg';
+import { ShopContext } from '../Context/Context';
+import { useContext } from 'react';
 
 function BasketItem(props) {
 
-  const {mainId, displayName, quantity, finalPrice, removeFromBasket, plusQuantityOrder, minusQuantityOrder} = props;
+  const {removeFromBasket, plusQuantityOrder, minusQuantityOrder} = useContext(ShopContext);
+  const {mainId, displayName, quantity, finalPrice } = props;
 
   return (
     <div className="basket_item">

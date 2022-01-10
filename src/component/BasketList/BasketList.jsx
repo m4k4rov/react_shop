@@ -1,14 +1,12 @@
 import './BasketList.css';
 import {BasketItem} from '../BasketItem/BasketItem';
 import close from './delete.svg';
+import { useContext } from 'react';
+import { ShopContext } from '../Context/Context';
 
-function BasketList (props) {
+function BasketList () {
 
-  const {minusQuantityOrder = Function.prototype,
-    plusQuantityOrder = Function.prototype,
-    handleBasketShow = Function.prototype,
-    removeFromBasket = Function.prototype,
-    order = []} = props;
+  const {order = [], handleBasketShow} = useContext(ShopContext);
 
   let allPrice = 0;
 
@@ -28,9 +26,6 @@ function BasketList (props) {
           <BasketItem
             key={item.mainId}
             {...item}
-            removeFromBasket={removeFromBasket}
-            plusQuantityOrder={plusQuantityOrder}
-            minusQuantityOrder={minusQuantityOrder}
           />) : ''}
         {allPrice ? <div className='basket_list_title'>Общая стоимость: {allPrice} V</div> : <div className="basket_item">Корзина пуста</div>}
         <div className='basket_list_box'>

@@ -1,7 +1,11 @@
+import { ShopContext } from "../Context/Context";
+import { useContext } from "react";
+
 function GoodsItem (props) {
-  const {mainId, displayName, displayDescription, price, displayAssets, addToBasket} = props;
+  const {mainId, displayName, displayDescription, price, displayAssets} = props;
   const {full_background} = displayAssets[0];
   const {finalPrice} = price;
+  const {addToBasket} = useContext(ShopContext);
   return (
       <div target="_blank" rel="noreferrer" className="card">
         <div>
