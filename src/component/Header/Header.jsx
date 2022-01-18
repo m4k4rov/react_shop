@@ -17,7 +17,7 @@ class Header extends React.Component {
     return (
       <nav className="navigate">
         <div className="navigate__wrapper">
-          <a href="!#" className="navigate__logo">React Shop</a>
+          <a href="#" className="navigate__logo">React Shop</a>
           <ul className="navigate__links">
             <li className="navigate__link">
               <div onClick={this.toggleModal} className="navigate__info">info</div>
